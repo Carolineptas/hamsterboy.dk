@@ -1,0 +1,8 @@
+
+* Paging på blog post undersider -> "Prev/next article"
+√ Find løsning på layout forskel mellem my-stuff siden og undersiderne. (sidebar på undersiderne)
+√ Tag cloud/list
+√ Tag specific page
+* Nyt logo
+* inkluder script til IE media queries 
+
