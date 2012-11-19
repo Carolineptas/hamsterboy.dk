@@ -1,0 +1,107 @@
+---
+layout: none
+permalink: .htaccess
+---
+
+# Apache configuration file
+# httpd.apache.org/docs/2.2/mod/quickreference.html
+
+# Note .htaccess files are an overhead, this logic should be in your Apache config if possible
+# httpd.apache.org/docs/2.2/howto/htaccess.html
+
+# Techniques in here adapted from all over, including:
+#   Kroc Camen: camendesign.com/.htaccess
+#   perishablepress.com/press/2006/01/10/stupid-htaccess-tricks/
+#   Sample .htaccess file of CMS MODx: modxcms.com
+
+
+###
+### If you run a webserver other than apache, consider:
+### github.com/paulirish/html5-boilerplate-server-configs
+###
+
+RewriteEngine on 
+
+ErrorDocument 404 /404.html
+
+Redirect 301 /home http://hamsterboy.dk/
+
+
+RewriteEngine On
+RewriteBase /
+
+Redirect 301 archive/tags/training http://hamsterboy.dk/tags/training
+Redirect 301 archive/tags/music http://hamsterboy.dk/tags/music
+Redirect 301 archive/tags/kitesurfing http://hamsterboy.dk/tags/kitesurfing
+Redirect 301 archive/tags/inspiration http://hamsterboy.dk/tags/inspiration
+Redirect 301 archive/tags/frontend http://hamsterboy.dk/tags/frontend
+
+Redirect 301 /archive/crossfit-journal-31-08-2011 http://hamsterboy.dk/blog/crossfit-journal-31-08-2011
+Redirect 301 /archive/a-brief-reminder-to-myself http://hamsterboy.dk/blog/skateboarding-in-india
+Redirect 301 /archive/skateboarding-in-india http://hamsterboy.dk/blog/skateboarding-in-india
+Redirect 301 /archive/trentemller-roskilde-festival-09 http://hamsterboy.dk/blog/trentemoller-roskilde-festival-09
+Redirect 301 /archive/crossfit-journal-05-07-2011 http://hamsterboy.dk/blog/crossfit-journal-05-07-2011
+Redirect 301 /archive/crossfit-journal-14-06-2011 http://hamsterboy.dk/blog/crossfit-journal-14-06-2011
+Redirect 301 /archive/show-hidden-files-on-your-mac http://hamsterboy.dk/blog/show-hidden-files-on-your-mac
+Redirect 301 /archive/the-ever-changing-wall http://hamsterboy.dk/blog/the-ever-changing-wall
+Redirect 301 /archive/sand-art-by-jim-denevan http://hamsterboy.dk/blog/sand-art-by-jim-denevan
+Redirect 301 /archive/cool-screw-portraits http://hamsterboy.dk/blog/cool-screw-portraits
+Redirect 301 /archive/dark-side-of-the-lens http://hamsterboy.dk/blog/dark-side-of-the-lens
+Redirect 301 /archive/animated-shortfilm-fallen http://hamsterboy.dk/blog/animated-shortfilm-fallen
+Redirect 301 /archive/amazing-painting-by-supakitch-koralie http://hamsterboy.dk/blog/amazing-painting-by-supakitch-koralie
+Redirect 301 /archive/travel-journal http://hamsterboy.dk/blog/travel-journal-2010
+Redirect 301 /archive/crossfit-journal-11-09-2010 http://hamsterboy.dk/blog/crossfit-journal-11-09-2010
+Redirect 301 /archive/concept-art-of-mikael-lugnegard http://hamsterboy.dk/blog/concept-art-of-mikael-lugnegard
+Redirect 301 /archive/crossfit-journal-03-09-2010 http://hamsterboy.dk/blog/crossfit-journal-03-09-2010
+Redirect 301 /archive/bionic-does-fran-in-158 http://hamsterboy.dk/blog/bionic-does-fran-in-1min58
+Redirect 301 /archive/peace-vs.-love http://hamsterboy.dk/blog/peace-vs-love
+Redirect 301 /archive/crossfit-journal-01-09-2010 http://hamsterboy.dk/blog/crossfit-journal-01-09-2010
+Redirect 301 /archive/crossfit-journal-30-8-2010 http://hamsterboy.dk/blog/crossfit-journal-30-8-2010
+Redirect 301 /archive/crossfit-journal-27-08-2010 http://hamsterboy.dk/blog/crossfit-journal-27-08-2010
+Redirect 301 /archive/crossfit-journal-20-8-2010 http://hamsterboy.dk/blog/crossfit-journal-20-8-2010
+Redirect 301 /archive/car-dealer-project-launced http://hamsterboy.dk/blog/car-dealer-project-launched
+Redirect 301 /archive/crossfit-journal-10-8-2010 http://hamsterboy.dk/blog/crossfit-journal-10-8-2010
+Redirect 301 /archive/crossfit-journal-6-8-2010 http://hamsterboy.dk/blog/crossfit-journal-6-8-2010
+Redirect 301 /archive/crossfit-journal-5-8-2010 http://hamsterboy.dk/blog/crossfit-journal-5-8-2010
+Redirect 301 /archive/crossfit-journal-3-8-2010 http://hamsterboy.dk/blog/crossfit-journal-3-8-2010
+Redirect 301 /archive/os-x-boot-keyboard-shurtcuts http://hamsterboy.dk/blog/os-x-boot-keyboard-shurtcuts
+Redirect 301 /archive/kitesurfing-june-july http://hamsterboy.dk/blog/kitesurfing-june-july
+Redirect 301 /archive/crossfit-journal-6-7-2010 http://hamsterboy.dk/blog/crossfit-journal-6-7-2010
+Redirect 301 /archive/crossfit-journal-30-6-2010 http://hamsterboy.dk/blog/crossfit-journal-30-6-2010
+Redirect 301 /archive/amazing-art-of-richard-shilling http://hamsterboy.dk/blog/amazing-art-of-richard-shilling
+Redirect 301 /archive/crossfit-journal-8-6-2010 http://hamsterboy.dk/blog/crossfit-journal-8-6-2010
+Redirect 301 /archive/the-joy-joy-of-photoshop-crashes http://hamsterboy.dk/blog/the-joy-joy-of-photoshop-crashes
+Redirect 301 /archive/bloggin-from-textmate http://hamsterboy.dk/blog/bloggin-from-textmate
+Redirect 301 /archive/grids-vs.-comics http://hamsterboy.dk/blog/grids-vs-comics
+Redirect 301 /archive/crossfit_jounal_5_5_2010 http://hamsterboy.dk/blog/crossfit-journal-5-5-2010
+Redirect 301 /archive/crossfit_jounal_5_3_2010 http://hamsterboy.dk/blog/crossfit-journal-5-3-2010
+Redirect 301 /archive/crossfit-journal-28-4-2010 http://hamsterboy.dk/blog/crossfit-journal-28-4-2010
+Redirect 301 /archive/the-shortfilm-pixels http://hamsterboy.dk/blog/the-shortfilm-pixels
+Redirect 301 /archive/explosive-art http://hamsterboy.dk/blog/explosive-art
+
+Redirect 301 /archive/tags http://hamsterboy.dk/tags
+Redirect 301 /archive/tags/design http://hamsterboy.dk/tags/design
+Redirect 301 /archive/tags/development http://hamsterboy.dk/tags/development
+Redirect 301 /archive/tags/tips http://hamsterboy.dk/tags/tips
+Redirect 301 /archive/tags/travel http://hamsterboy.dk/tags/travel
+Redirect 301 /archive/tags/training http://hamsterboy.dk/tags/training
+Redirect 301 /archive/tags/art http://hamsterboy.dk/tags/art
+Redirect 301 /archive/tags/inspiration http://hamsterboy.dk/tags/inspiration
+Redirect 301 /archive/tags/kitesurfing http://hamsterboy.dk/tags/kitesurfing
+Redirect 301 /archive/tags/frontend http://hamsterboy.dk/tags/frontend
+Redirect 301 /archive/tags/photoshop http://hamsterboy.dk/tags/photoshop
+Redirect 301 /archive/tags/music http://hamsterboy.dk/tags/music
+	
+Redirect 301 /my-stuff/pick-me-shirt-2 http://hamsterboy.dk/my-stuff/pick-me-shirt2
+
+
+# ----------------------------------------------------------------------
+# UTF-8 encoding
+# ----------------------------------------------------------------------
+
+# use utf-8 encoding for anything served text/plain or text/html
+AddDefaultCharset utf-8
+
+# force utf-8 for a number of file formats
+AddCharset utf-8 .html .css .js .xml .json .rss
+

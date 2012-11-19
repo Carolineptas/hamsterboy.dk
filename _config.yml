@@ -1,0 +1,18 @@
+safe:               false
+auto:               true
+server:             true
+markdown:           rdiscount 
+permalink:          /:categories/:title/
+paginate:           10
+paginate_file:      /blog/index.html
+                
+category_dir:       categories
+tags_dir:           /archive/tags
+ 
+index_pages:
+ category:
+   do_related:      false
+   title_prefix:    "Category: "
+ tag:
+   do_related:      true
+   title_prefix:    "Tag: "

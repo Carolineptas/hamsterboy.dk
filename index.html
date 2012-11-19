@@ -1,0 +1,28 @@
+---
+layout: frontpage
+body_class: frontpage
+---
+
+<section class="teasers">
+	<h2>Latest projects</h2>
+	{% for project in site.categories.my-stuff limit:10 %}
+		<div class="fifth{% if forloop.index == 5 or forloop.index == 10 %} last{% endif %}">
+			<a class="thumb" href="{{ project.url }}">
+				<img src="/images/work/{{ project.thumbnail }}" alt="{{ project.title }}" />
+			</a>
+		</div>
+	{% endfor %}
+</section>
+
+{% comment %}
+<section class="teasers">
+	<h2>Latest blog entries</h2>
+	{% for post in site.categories.blog limit:4 %}
+		<div class="quarter{% if forloop.last == true %} last{% endif %}">
+			<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+			<p>{{ post.content | strip_html | truncatewords: 40 }}</p>
+			<a href="{{ post.url }}">Continue reading &rsaquo;</a>
+		</div>
+	{% endfor %}
+</section>
+{% endcomment %}

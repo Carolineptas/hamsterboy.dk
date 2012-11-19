@@ -1,0 +1,15 @@
+---
+layout: folio
+title: Projects
+body_class: my-stuff
+---
+
+<ol class="folio">
+{% for project in site.categories.my-stuff do %}
+	<li class="item" data-id="{{ forloop.index }}" data-type="{{ project.tags }}">
+		<a class="thumb" href="{{ project.url }}">
+			<img src="/images/work/{{ project.thumbnail }}" alt="{{ project.title }}" />
+		</a>
+	</li>
+{% endfor %}
+</ol>

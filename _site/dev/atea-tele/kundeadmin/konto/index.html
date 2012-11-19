@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+	<meta charset="utf-8">
+	<title>Konto</title>
+	
+	<meta name="author" content="Atea Tele">
+
+	<!--[if lt IE 9]>
+	  <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<link href="assets/themes/twitter/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<link href="assets/themes/twitter/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+	<link href="assets/themes/twitter/css/style.css?body=1" rel="stylesheet" type="text/css" media="all">
+
+  	<!-- Update these with your own images
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+  	-->
+  </head>
+
+  <body>
+
+	<header class="navbar navbar-fixed-top">
+		<div class="topbar">
+			<div class="container">
+				<a class="brand" href="/"><img src="/assets/themes/twitter/images/logo.png" alt="Atea Tele" /></a>
+				
+				<form class="navbar-search pull-right" action="">
+	            	<input type="text" class="search-query" placeholder="Søg" data-provide="typeahead" data-items="8" data-source='["Kenneth Christensen","Daniel Aakjær Sørensen","Jens Jensen","Martin Bo","Patrick Ipsen"]' />
+				</form>
+				<ul class="nav session-info pull-right">
+					<li class="dropdown">
+						<a class="username dropdown-toggle" data-toggle="dropdown"><i>Bruger </i>Daniel Aakjær Sørensen <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="/konto">Konto</a></li>
+							<li class="divider"></li>
+							<li><a href="/admin/bruger-administration">Bruger administration</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="navbar-inner">
+			<div class="container">
+				<nav class="nav-collapse collapse">
+					<ul class="nav">
+						<li class="dashboard"><a href="/">Dashboard</a></li>
+						<li class="users"><a href="/medarbejdere">Medarbejdere</a></li>
+						<li class="products"><a href="produkter">Produkter og priser</a></li>
+						<li class="invoices dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Faktura &amp; rapporter <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/faktura-og-rapporter/faktura">Faktura</a></li>
+								<li><a href="/faktura-og-rapporter/budget-vs-actual">"Budget vs. actual"</a></li>
+							</ul>
+						</li>
+						</li>
+						<li class="organisation dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Organisation <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="/organisation/costcentre">Costcentre</a></li>
+								<li><a href="/organisation/medarbejder-grupper">Medarbejder grupper</a></li>
+							</ul>
+						</li>
+					</ul>					
+					<ul class="nav pull-right">
+						<li><a href="/hjaelp">Hjælp</a></li>
+					</ul>				
+				</nav>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+
+	  <div class="content">
+		
+<div class="page-header">
+  <h1>Konto oplysninger </h1>
+</div>
+
+<div class="row">
+  <div class="span12">
+    
+
+
+<div class="row">
+	
+	<div class="span9">
+		<form class="form-horizontal">
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input01">Navn</label>
+					<div class="controls">
+						<input type="text" class="input-xlarge" id="input01" />
+					</div>
+				</div>
+			</fieldset>
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input02">E-mail</label>
+					<div class="controls">
+						<input type="text" class="input-xlarge" id="input02">
+					</div>
+				</div>
+			</fieldset>
+			<fieldset>
+				<div class="control-group">
+					<label class="control-label" for="input03">Password</label>
+					<div class="controls">
+						<input type="password" class="input-xlarge" id="input03">
+					</div>
+				</div>
+			</fieldset>
+			
+			<div class="form-actions">
+				<button type="submit" class="btn btn-success">Gem oplysninger</button>
+				<button class="btn">Fortryd</button>
+			</div>
+		</form>				
+	</div>
+	
+	<div class="span3">
+		<div class="well" style="padding: 8px 0;">
+			<ul class="nav nav-list">
+				<li class="nav-header">Undermenu</li>
+				<li class="active">
+					<a href="/konto/"><i class="icon-user"></i> Konto oplysninger</a>
+				</li>
+				<li>
+					<a href="/admin/bruger-administration"><i class="icon-cog"></i> Bruger administration</a>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+
+  </div>
+</div>
+
+
+	  </div>
+
+	  <footer>
+		<p>&copy; Atea Tele 2012 
+		  with help from <a href="http://jekyllbootstrap.com" target="_blank" title="The Definitive Jekyll Blogging Framework">Jekyll Bootstrap</a>
+		  and <a href="http://twitter.github.com/bootstrap/" target="_blank">Twitter Bootstrap</a>
+		</p>
+	  </footer>
+
+	</div> <!-- /container -->
+
+	
+	
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="assets/themes/twitter/bootstrap/js/bootstrap.min.js"></script>
+	
+  </body>
+</html>
+

@@ -1,0 +1,159 @@
+---
+---
+<!doctype html>
+<!--[if lt IE 7 ]> <html class="no-js ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]>	   <html class="no-js ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]>	   <html class="no-js ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Home of the Hamsterboy - a freelance webdesigner and creative soul decorating virtual homes near you.">
+	<meta name="author" content="Daniel Aakjær Sørensen" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+	<script>
+		// remove the no-js class from the <html> element
+		var docElement = document.documentElement;
+		docElement.className = docElement.className.replace(/\bno-js\b/, '')
+	</script>
+
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300,400,700" />
+	<link rel="stylesheet" href="/css/style.css" />
+	<link rel="stylesheet" href="/css/wind.css" />
+
+	<!-- enable HTML5 elements in IE7+8 -->
+	<!--[if lt IE 9]>
+	<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<script src="/js/respond.js"></script>
+	<![endif]-->
+</head>	
+
+<body class="wind">
+	<div id="page">
+		<header role="banner">
+			<div class="logo"><a href="/" title="Hamsterboy"><img src="/images/ui/logo.png" alt="Hamsterboy" /></a></div>
+			<nav role="navigation">
+				<ul>
+					<li class="home"><a href="/">Home</a></li>
+					<li class="wind"><a href="/wind/">Wind</a></li>
+				</ul>
+			</nav>
+		</header>
+		<div class="contentwrap">
+
+			<h1 class="page-title">{{ page.title }}</h1>
+
+			<div id="content" role="main">
+				
+				<ul class="weather-stations">
+					<li id="drogden">
+						<h3>Drogden Fyr</h3>
+						<a href="#.#">
+							<ul>
+								<li class="speed"><b>6.4</b> m/s</li>
+								<li class="direction"><i class="direction-icon"></i> <span class="degrees">120&deg;</span></li>
+							</ul>
+						</a>
+
+					</li>
+					<li>
+						<h3>Gniben</h3>
+						<a href="#.#">
+							<ul>
+								<li class="speed"><b>12.3</b> m/s</li>
+								<li class="direction"><i class="direction-icon"></i> <span class="degrees">120&deg;</span></li>
+							</ul>
+						</a>
+					</li>
+				</ul>
+			</div>
+
+			{% include sidebar.html %}
+		</div>
+
+			{% include footer.html %}
+	</div>
+	
+	<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>-->
+	<script src="/js/jquery.min.js"></script>
+	<script src="/js/jquery.easing.1.3.js"></script>
+	<script src="/js/jquery.fancybox.min.js"></script>
+	<script src="/js/application.js"></script>
+	
+	<script id="listitem" type="text/x-jquery-tmpl">
+		<li>
+			<h3>${stationName}</h3>
+			<a href="#.#">
+				<ul>
+					<li class="speed"><b>${windSpeed}</b> m/s</li>
+					<li class="direction"><i class="direction-icon"></i> <span class="degrees">${windAngle}&deg;</span></li>
+				</ul>
+			</a>
+		</li>
+	</script>
+	
+	
+	<script>
+		$(document).ready(function() {
+
+			var stations = [
+			  { Name: "Drogden", ID: "6183" },
+			  { Name: "Kbh lufthavn", ID: "" },
+			  { Name: "Gniben", ID: "1976" }
+			];
+
+			function rotateArrow(elm, angle) {
+				$(elm[0]).css("-moz-transform","rotate("+ angle + "deg)");	
+				$(elm[0]).css("-webkit-transform","rotate("+ angle + "deg)");	
+				$(elm[0]).css("-ms-transform","rotate("+ angle + "deg)");	
+				$(elm[0]).css("-o-transform","rotate("+ angle + "deg)");	
+			}
+
+
+			function getWindData(elm,stationID){
+
+				if ( $("#content .weather-stations") ) {
+					// create the list element
+					$("#content").append("<ul class='weather-stations'></ul>");
+				}
+
+				$.get('http://hamsterboy.dk/dev/wind/proxy.php?id=' + stationID, function(data) {
+
+		      		var txt = data;
+
+					txt.split("middelvind:").pop();
+
+					var re1='(\\d+)';	// Integer Number 1
+					var re2='.*?';	// Non-greedy match on filler
+					var re3='([+-]?\\d*\\.\\d+)(?![-+0-9\\.])';	// Float 1
+
+					var p = new RegExp(re1+re2+re3,["i"]);
+					var m = p.exec(txt);
+					if (m != null) {
+						var windAngle = m[1].replace(/</,"&lt;");
+						var windSpeed = m[2].replace(/</,"&lt;");
+
+						// fill in the numbers
+						// wind speed
+						$( elm + " .speed b").html(windSpeed);
+
+						// wind direction
+						$( elm + " .degrees").html(windAngle + "&deg;");
+
+						// rotate the arrow
+						rotateArrow($( elm + " .direction"), 240);
+					}
+				});
+			}
+
+			getWindData("#drogden", 6183);
+			
+			//getWindData("#cph-airport	", 6180);
+			
+			//getWindData("#gniben", 6169);
+
+		});
+	</script>
+
+</body>
+</html>

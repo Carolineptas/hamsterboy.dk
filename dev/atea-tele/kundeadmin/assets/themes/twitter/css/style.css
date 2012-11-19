@@ -1,0 +1,211 @@
+/* Override some Bootstrap defaults */
+html, body {
+	height: 100%;
+	background-color: #eee;
+}
+
+body {
+	background: #fff url(assets/themes/twitter/images/body-bg.png);
+	padding-top: 100px;
+}
+
+/* header */
+.navbar {
+	margin-bottom: 0;
+}
+	.navbar .topbar {
+		display: block;
+		background: #2b2b2b url(assets/themes/twitter/images/topbar-bg.png) 0 0 repeat-x;
+		height: 43px;
+	}
+		.navbar .topbar .navbar-search {
+			margin: 0;
+			height: 36px;
+			padding: 6px 0 0 20px;
+			background: url(assets/themes/twitter/images/topbar-separator.png) 0 0 repeat-y;
+		}
+			.topbar .navbar-search .search-query {
+				background: #515151 url(assets/themes/twitter/images/icons/magnifier.png) 10px 6px no-repeat;
+				padding-left: 28px;
+			}
+				.navbar-search .search-query::-webkit-input-placeholder{
+					color:#ccc;
+				}
+				.navbar-search .search-query:focus,
+				.topbar .navbar-search .search-query.focused {
+					padding: 5px 10px 5px 29px; 
+					background-color: #fff;
+				}
+			
+		.navbar .topbar .nav {
+			background: none;
+		}
+			.navbar .topbar .session-info > li > a { 
+				margin-top: 3px;
+				background: none;
+				color: #fff;
+			}
+				.navbar .topbar .session-info a i { 
+					margin-right: 5px;
+					font-weight: normal;
+					font-style: normal;
+					color: #999;
+				}
+	
+	.navbar .brand {
+		width: 107px;
+	}
+	.navbar .navbar-inner {
+		background: #393939 url(assets/themes/twitter/images/navbar-bg.png) 0 0 repeat-x;
+	}
+		.navbar .nav {
+			display: block;
+			background: url(assets/themes/twitter/images/navbar-separator.png) 0 0 no-repeat;
+		}
+			.navbar .nav > li > a {
+				padding: 8px 20px;
+				background: url(assets/themes/twitter/images/navbar-separator.png) 100% 0 no-repeat;
+			}
+
+			body.dashboard .navbar li.dashboard > a,
+			body.users .navbar li.users > a,
+			body.products .navbar li.products > a,
+			body.invoices .navbar li.invoices > a,
+			body.organisation .navbar li.organisation > a {
+				color:#fff;
+				text-decoration:none;
+				background: #58ae49 !important;
+				-moz-box-shadow:    inset 0 0 15px rgba(0,0,0,0.4);
+				-webkit-box-shadow: inset 0 0 15px rgba(0,0,0,0.4);
+				box-shadow:         inset 0 0 15px rgba(0,0,0,0.4);
+			}
+
+/* Page header tweaks */
+.page-header {
+  padding: 20px 20px 10px;
+  margin: -20px -20px 20px;
+}
+
+/* The white background content wrapper */
+.content {
+  background-color: #fff;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+  -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+          box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+.container > footer {
+  margin-top: 20px;
+}
+.container > footer p {
+  text-align: center; /* center align it with the container */
+}
+
+.control-label {
+	font-weight: bold;
+}
+
+
+/* tag_box ======================================================== */
+
+.tag_box {
+	list-style:none;
+	margin:0;
+	padding:5px 0 ;
+	overflow:hidden;
+}
+.tag_box li {
+	line-height:28px;
+}
+.tag_box.inline li {
+	float:left;
+}
+.tag_box a {
+	padding: 3px 6px;
+	margin: 2px;
+	background: #eee;
+	color:#005F6B;
+	border-radius: 3px;
+	text-decoration:none;
+}
+.tag_box a span{
+	vertical-align:super;
+	font-size:0.8em;
+}
+.tag_box a.active {
+	background:#57A957;
+	border:1px solid #4C964D;
+	color:#FFF;
+}
+	
+	
+/* Subnav */
+.subnav {
+	width: 100%;
+	height: 36px;
+	background-color: #eeeeee; /* Old browsers */
+	background-repeat: repeat-x; /* Repeat the gradient */
+	background-image: -moz-linear-gradient(top, #f5f5f5 0%, #eeeeee 100%); /* FF3.6+ */
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#f5f5f5), color-stop(100%,#eeeeee)); /* Chrome,Safari4+ */
+	background-image: -webkit-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Chrome 10+,Safari 5.1+ */
+	background-image: -ms-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* IE10+ */
+	background-image: -o-linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* Opera 11.10+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f5f5f5', endColorstr='#eeeeee',GradientType=0 ); /* IE6-9 */
+	background-image: linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* W3C */
+	border: 1px solid #e5e5e5;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+}
+	.subnav .nav {
+		margin-bottom: 0;
+	}
+		.subnav .nav > li > a {
+			margin: 0;
+			padding-top:	  11px;
+			padding-bottom: 11px;
+			border-left: 1px solid #f5f5f5;
+			border-right: 1px solid #e5e5e5;
+			-webkit-border-radius: 0;
+			-moz-border-radius: 0;
+			border-radius: 0;
+		}
+		.subnav .nav > .active > a,
+		.subnav .nav > .active > a:hover {
+			padding-left: 13px;
+			color: #777;
+			background-color: #e9e9e9;
+			border-right-color: #ddd;
+			border-left: 0;
+			-webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+			-moz-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+			box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+		}
+		.subnav .nav > .active > a .caret,
+		.subnav .nav > .active > a:hover .caret {
+			border-top-color: #777;
+		}
+		.subnav .nav > li:first-child > a,
+		.subnav .nav > li:first-child > a:hover {
+			border-left: 0;
+			padding-left: 12px;
+			-webkit-border-radius: 4px 0 0 4px;
+			-moz-border-radius: 4px 0 0 4px;
+			border-radius: 4px 0 0 4px;
+		}
+		.subnav .nav > li:last-child > a {
+			border-right: 0;
+		}
+	.subnav .dropdown-menu {
+		-webkit-border-radius: 0 0 4px 4px;
+		-moz-border-radius: 0 0 4px 4px;
+		border-radius: 0 0 4px 4px;
+	}
+	
+	
+	
