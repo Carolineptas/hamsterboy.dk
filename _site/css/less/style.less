@@ -125,13 +125,21 @@ section.teasers {
 	h2 {
 		margin: 0 0 .5em;
 	}
-	a, a img {
+	a {
 		display: block;
+
+		img {
+			display: block;
+			max-width: 92%;
+			display: block;
+			padding: 4%;
+			background: #EFE9E7;
+		}
 	}
+
 	p {
 		margin-bottom: 0;
 	}
-	
 }
 
 
@@ -830,7 +838,7 @@ h1 + p .illustration {
 		float: left;
 		margin: 0 0 0 2%; 
 		width: 18%;
- 
+
 		h2 {
 			margin: 0.3em 0 0;
 			font-size: 1em;
@@ -842,11 +850,13 @@ h1 + p .illustration {
 		}
 		a.thumb {
 			display: block;
+			.box-sizing(border-box);
 			
 			img {
+				max-width: 92%;
 				display: block;
-				max-width: 98%;
-				padding: 1%;
+				padding: 4%;
+				background: #EFE9E7;
 			}
 		}
 	}
