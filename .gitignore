@@ -1,5 +1,5 @@
 .DS_Store
-ateatele.sublime-project
-ateatele.sublime-workspace
 
-_site/
+/_site/
+
+/src/assets/stylesheets/*.css
