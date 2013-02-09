@@ -10,5 +10,5 @@ technologies: Photoshop, HTML & CSS
 
 ---
 
-<img src="/images/work/2010-06-22_claire_ross_brown.jpg" class="illustration" title="Screenshot 1" alt="Screenshot 1" />
+<img src="/assets/images/work/2010-06-22_claire_ross_brown.jpg" class="illustration" title="Screenshot 1" alt="Screenshot 1" />
 

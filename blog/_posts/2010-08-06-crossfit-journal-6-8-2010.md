@@ -20,10 +20,10 @@ tags:
 <!--more-->
 <p>*Forward and back equals one rep</p>
 
-<p><img src="/images/blog-images/2010-08-10_06082010_crossfitjournal_1.jpg" class="illustration" title="Gym overview" alt="Gym overview"></p>
+<p><img src="/assets/images/blog-images/2010-08-10_06082010_crossfitjournal_1.jpg" class="illustration" title="Gym overview" alt="Gym overview"></p>
 
 <p class="description">The orange shirt with the black trunks is me</p>
 
-<p><img src="/images/blog-images/2010-08-10_06082010_crossfitjournal_2.jpg" class="illustration" title="Scoreboard" alt="Scoreboard"></p>
+<p><img src="/assets/images/blog-images/2010-08-10_06082010_crossfitjournal_2.jpg" class="illustration" title="Scoreboard" alt="Scoreboard"></p>
 
 <p><strong>My time: 9:51 Rx</strong></p>

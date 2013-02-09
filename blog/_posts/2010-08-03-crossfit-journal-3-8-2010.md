@@ -25,4 +25,4 @@ tags:
 
 <p><strong>My time: 10:51 Rx</strong> (fastest time of the day wooohooo!)</p>
 
-<p><img src="/images/blog-images/2010-08-05_crossfit_journal_05082010.jpg" class="illustration" title="Scoreboard" alt="Scoreboard"></p>
+<p><img src="/assets/images/blog-images/2010-08-05_crossfit_journal_05082010.jpg" class="illustration" title="Scoreboard" alt="Scoreboard"></p>

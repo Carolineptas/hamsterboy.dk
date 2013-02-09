@@ -8,4 +8,4 @@ tags:
 ---
 
 				
-<p><img src="/images/work/2010-06-10_icefreak.jpg" class="illustration" title="Illustration 1" alt="Illustration 1"></p>
+<p><img src="/assets/images/work/2010-06-10_icefreak.jpg" class="illustration" title="Illustration 1" alt="Illustration 1"></p>

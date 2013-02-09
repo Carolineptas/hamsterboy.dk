@@ -10,7 +10,7 @@ technologies: Jquery mobile, Photoshop, HTML & CSS
 
 ---
 
-<img src="/images/work/2011-11-15_volkswagen_infostand.jpg" title="" alt="Volkswagen infostand" />
+<img src="/assets/images/work/2011-11-15_volkswagen_infostand.jpg" title="" alt="Volkswagen infostand" />
 
 Creating a iPad based version of a info-stand for an annual danish auto show. The stand should allow customers to view car specs, the price and order a demoride and brochures.
 

@@ -29,8 +29,8 @@ Time limit: 30 min
 
 **Time: 16:36 Rx**
 
-<img class="illustration" src="/images/blog-images/030510-1.jpg" alt="Kettlebell swinging" />
+<img class="illustration" src="/assets/images/blog-images/030510-1.jpg" alt="Kettlebell swinging" />
 
 <p class="description">Picture of me doing some kettlebell swinin’…</p>
 
-<img class="illustration" src="/images/blog-images/030510-2.jpg" alt="Board" />
+<img class="illustration" src="/assets/images/blog-images/030510-2.jpg" alt="Board" />

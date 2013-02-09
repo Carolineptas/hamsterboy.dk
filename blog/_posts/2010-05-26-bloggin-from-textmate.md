@@ -17,4 +17,4 @@ tags:
 
 <p>Basically there is nothing to it. A quick module-install in EE and a bit of connecting between the Textmate blogging bundle and the EE MetaWeblog <span class="caps">API</span>, and Voila!… I am now able to post blogs without having to access the EE admin and uploading images is as simply as dragging the images to Textmate – my life just got so much easier. Woohoo!</p>
 
-<p><img src="/images/blog-images/2010-05-27_blogging_from_textmate.png" title="Blogging From Textmate" alt="Blogging From Textmate"></p>
+<p><img src="/assets/images/blog-images/2010-05-27_blogging_from_textmate.png" title="Blogging From Textmate" alt="Blogging From Textmate"></p>

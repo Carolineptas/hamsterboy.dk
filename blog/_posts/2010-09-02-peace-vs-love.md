@@ -7,7 +7,7 @@ tags:
 
 ---
 
-<p><img src="/images/blog-images/2010-09-02_peace_vs_love.jpg" class="illustration" title="Peace vs Love" alt="Peace vs Love"></p>
+<p><img src="/assets/images/blog-images/2010-09-02_peace_vs_love.jpg" class="illustration" title="Peace vs Love" alt="Peace vs Love"></p>
 
 <p>I guess the photo says it all… </p>
 

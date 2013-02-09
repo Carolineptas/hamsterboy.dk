@@ -8,4 +8,4 @@ tags:
 ---
 
 				
-<p><img src="/images/work/2010-06-15_fireworks_sketch.jpg" class="illustration" title="Illustration 1" alt="Illustration 1"></p>
+<p><img src="/assets/images/work/2010-06-15_fireworks_sketch.jpg" class="illustration" title="Illustration 1" alt="Illustration 1"></p>

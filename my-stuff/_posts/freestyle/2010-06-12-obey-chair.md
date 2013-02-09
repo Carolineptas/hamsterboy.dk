@@ -8,9 +8,9 @@ tags:
 ---
 
 				
-<p><img src="/images/work/2010-08-31_obey_chair_2.jpg" class="illustration" title="Obey Chair 2" alt="Obey Chair 2"></p>
+<p><img src="/assets/images/work/2010-08-31_obey_chair_2.jpg" class="illustration" title="Obey Chair 2" alt="Obey Chair 2"></p>
 
-<p><img src="/images/work/2010-08-31_obey_chair.jpg" class="illustration" title="Obey Chair 3" alt="Obey Chair 3"></p>
+<p><img src="/assets/images/work/2010-08-31_obey_chair.jpg" class="illustration" title="Obey Chair 3" alt="Obey Chair 3"></p>
 
 
 ### Time-lapse videos ###

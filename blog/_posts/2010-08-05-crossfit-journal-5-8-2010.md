@@ -21,4 +21,4 @@ tags:
 
 <p><strong>My time: 14.00</strong></p>
 
-<p><img src="/images/blog-images/2010-08-05_squat_clean_games.jpg" class="illustration" title="Squat clean example" alt="Squat clean example"></p>
+<p><img src="/assets/images/blog-images/2010-08-05_squat_clean_games.jpg" class="illustration" title="Squat clean example" alt="Squat clean example"></p>

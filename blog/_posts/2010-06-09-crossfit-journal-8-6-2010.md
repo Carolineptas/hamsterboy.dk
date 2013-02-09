@@ -27,6 +27,6 @@ tags:
 <p>3 x max ring dips<br>
 3 × 10 K2E</p>
 
-<p><img class="illustration" src="/images/blog-images/2010-06-09_shoulder_press.jpg" title="Shoulder Press" alt="Shoulder Press"></p>
+<p><img class="illustration" src="/assets/images/blog-images/2010-06-09_shoulder_press.jpg" title="Shoulder Press" alt="Shoulder Press"></p>
 
 <p class="description">An example of a shoulder press. I sure am happy that there is no spectators present when I am doing mine ;)</p>

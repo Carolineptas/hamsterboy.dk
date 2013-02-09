@@ -17,8 +17,8 @@ tags:
 
 **Time: 14:16 Rx**
 
-<img class="illustration" src="/images/blog-images/050510-1.jpg" alt="Ring dips" />
+<img class="illustration" src="/assets/images/blog-images/050510-1.jpg" alt="Ring dips" />
 
 Ring dips are literally a pain in the tits… ;)
 
-<img class="illustration" src="/images/blog-images/050510-2.jpg" alt="Ring dips" />
+<img class="illustration" src="/assets/images/blog-images/050510-2.jpg" alt="Ring dips" />

@@ -12,7 +12,7 @@ tags:
 	<li><a href="/blog/travel-journal/#part3">Part 3. Vietnam and the Philippines</a></li>
 </ul>
 
-<p><img src="/images/blog-images/2010-09-28_traveljournal_preview_1.jpg" class="illustration" title="Traveljournal preview 1" alt="Traveljournal preview 1" /></p>
+<p><img src="/assets/images/blog-images/2010-09-28_traveljournal_preview_1.jpg" class="illustration" title="Traveljournal preview 1" alt="Traveljournal preview 1" /></p>
 
 <p>So&#8230;! Only 7 days left in DK before I pack my bags and head to Thailand! I must admit I&#8217;m a bit excited :) I am planning to keep my family and friends up-to-date by keeping a journal and posting some pictures here on my webpage whenever I can find the time &#8211; so feel free to drop by anytime and check for updates. I&#8217;ll try to post updates on Facebook as well to help the lazy ones.</p>
 
@@ -24,26 +24,26 @@ tags:
 	<li>Travel Asia for 3 months &#8211; including a lot of kitesurfing :)</li>
 </ul>
 
-<p><img src="/images/blog-images/2010-09-28_traveljournal_preview_2.jpg" class="illustration" title="Traveljournal Preview 2" alt="Traveljournal Preview 2" /></p>
+<p><img src="/assets/images/blog-images/2010-09-28_traveljournal_preview_2.jpg" class="illustration" title="Traveljournal Preview 2" alt="Traveljournal Preview 2" /></p>
 
 <!--more-->
 <h1 id="part1">Part 1. Arriving in Bangkok and going to Chiang Mai</h1>
 
 <p>I guess it is about time to put something into this journal. I have been in Thailand now for three weeks and I am starting to get a daily routine going to school, making my homework, eating pad thai etc. Sounds boring yeah? But this is pretty much what I am doing right now. The thai massage school is intensive like they promised &#8211; in every sence of the word in fact. So many things to do and learn, but fortunately the other students at the school are some of the nicest people I have met in a long time, which makes what might seem  triviel and boring a lot of fun. Seungman (Korea), Hana (Czech republic), Julian (New Mexico), Bernie (England), Wade (California), Julie (England), Elsa (Spain), Lori (Canada), Ceri (England), Gemma (England), Rie (Korea) just to mention a few. The teachers at school are amazing too &#8211; a real inspiration to see them work and their ability to smile every single day.</p>
 
-<p><img src="/images/blog-images/2010-10-27_chiangmai_temple.jpg" class="illustration" title="Chiangmai Temple" alt="Chiangmai Temple" /></p>
+<p><img src="/assets/images/blog-images/2010-10-27_chiangmai_temple.jpg" class="illustration" title="Chiangmai Temple" alt="Chiangmai Temple" /></p>
 
 <p>Anyway&#8230; I landed in Bangkok before going to Chiang Mai where I am now, after a nice and quite ride from Copenhagen, via Frankfurt to Bangkok. I had some problems getting my kite coffin (bag) on board and had to move some stuff into another bag before they would accept it. 10 minutes of panic in <span class="caps">CPH</span> was actually the only problem I had during my entire flight&#8230; and of course the german, bratwurst eating, sweaty guy I was fortunate enough to be placed next to, while watching Karate Kid 5 on a monitor from 90&#8217;s. I guess you get what you pay for :)</p>
 
 <p>Bangkok was hot! 37 degrees and staying above 26 at nighttime. Even the locals were sweating, so I wasn&#8217;t to embarresed about my cronically wet t-shirts. I found a small guesthouse near the main trainstation close to China Town. Among the staff was a really cool young american/chineese guy and an old thai lady that I spoke a lot with&#8230; really nice people I would propably go and visit if I go back to Bangkok. Actually I didn&#8217;t do much in Bangkok other than eat and get massages &#8211; just trying to relax and get ready for the school.</p>
 
-<p><img src="/images/blog-images/2010-10-27_bangkok_cars.jpg" class="illustration" title="Bangkok Cars" alt="Bangkok Cars" /></p>
+<p><img src="/assets/images/blog-images/2010-10-27_bangkok_cars.jpg" class="illustration" title="Bangkok Cars" alt="Bangkok Cars" /></p>
 
 <p>After a couple of days in Bangkok I took the night train heading for Chiang Mai. I bought the last seat/ticket for the train, and got a 2nd class with a bed and aircon which wasn&#8217;t bad at all. I sat next to a Chineese girl and a whole bunch og thais that later turned out to be one big family. The mother apparently had been working with some kind of enviromental projects and had gone to Europe, including Denmark several times. Super nice and friendly people and was invited to go and see her sons art exibition in Chiang Mai the following day. The trainride was good and comfy except for the cochroaches on the walls on the lower beds. The old lady were fighting them all night to &#8220;prevent them from crawling into the childrens ears&#8221;. I guess for some reason they like doing that &#8211; I probably would too if I could :D The finger is gonna have to do for now&#8230;</p>
 
 <p>In Chiang Mai I found a small guesthouse called Mountain View where I stayed the first 2-3 days. For some reason skateboarding had a major breakthrough recently and a lot of young guys were competing in a skateboard challenge the first day I reached Thapae Gate (the eastern gate of the old city). Always good fun to watch other people making an ass out of themselves. Fortunately 3 or 4 of the guys where able to pull off some tricks &#8211; I&#8217;ll try to post a video soon. The internet speeds in Thailand sadly enough leaves a lot to the imagination regarding speeds so it is most likely gonna take a week to upload. </p>
 
-<p><img src="/images/blog-images/2010-10-27_thapae_skating.jpg" class="illustration" title="Thapae Skating" alt="Thapae Skating" /></p>
+<p><img src="/assets/images/blog-images/2010-10-27_thapae_skating.jpg" class="illustration" title="Thapae Skating" alt="Thapae Skating" /></p>
 
 <p class="description">Crappy quality I know &#8211; It was taken from my videocamera.</p>
 
@@ -53,15 +53,15 @@ tags:
 
 <p>The first week in school flew by and was over before I knew it. 151 massage positions &#8211; information overload. So we went out for a beer or two and I ended up drinking thai whisky/thai rum shots at some sleezy bar with some of the others from school and a couple of locals till 6.30 AM. A crazy night with live music, headbanging, bug-snacks, loads of cheap whiskey and tons of laughter!</p>
 
-<p><img src="/images/blog-images/2010-10-27_drunk_as_a_skunk.jpg" class="illustration" title="Drunk as a Skunk" alt="Drunk as a Skunk" /></p>
+<p><img src="/assets/images/blog-images/2010-10-27_drunk_as_a_skunk.jpg" class="illustration" title="Drunk as a Skunk" alt="Drunk as a Skunk" /></p>
 
-<p><img src="/images/blog-images/2010-10-27_bug_snacks.jpg" class="illustration" title="Bug snacks" alt="Bug snacks" /></p>
+<p><img src="/assets/images/blog-images/2010-10-27_bug_snacks.jpg" class="illustration" title="Bug snacks" alt="Bug snacks" /></p>
 
 <p class="description">Elsa enjoying some local grasshopper snacks.</p>
 
 <p>Somewhere in all of this I was fortunate enough to get a small &#8220;mossy-bite&#8221; with a tiny dose of Dengue fever in it. At first I wondered why my hangovers where so tough to get over &#8211; usually I really dont get any, but this was different. Sunday evening I had a pretty rough fever but managed to sweat it all out, covering myself with all of my clothes and all of the blankets from my appartment. Monday morning I struggled with a major headache and massive muscle/joint pain, which was accompanied by a nice fullbody rash during tuesday. </p>
 
-<p><img src="/images/blog-images/2010-10-27_dengue_rash.jpg" class="illustration" title="Dengue Rash" alt="Dengue Rash" /></p>
+<p><img src="/assets/images/blog-images/2010-10-27_dengue_rash.jpg" class="illustration" title="Dengue Rash" alt="Dengue Rash" /></p>
 
 <p class="description">This was only the beginning &#8211; turned pretty nasty later on.</p>
 
@@ -69,15 +69,15 @@ tags:
 
 <p>On Sunday we took a cap to the temple on the mountain. An interesting near-death-ride racing through the small mountain roads leading to the temple. The temple was worth the ride thou, and we spent some hours looking at gold covered Buddha statues, scultures and monks giving their blessings to the public.</p>
 
-<p><img src="/images/blog-images/2010-10-27_happy_temple_girls.jpg" class="illustration" title="Happy Temple Girls" alt="Happy Temple Girls" /></p>
+<p><img src="/assets/images/blog-images/2010-10-27_happy_temple_girls.jpg" class="illustration" title="Happy Temple Girls" alt="Happy Temple Girls" /></p>
 
 <h2>Random signs</h2>
 
-<p><img src="/images/blog-images/2010-10-28_pooh_cottage.jpg" class="illustration" title="Pooh Cottage" alt="Pooh Cottage" /></p>
+<p><img src="/assets/images/blog-images/2010-10-28_pooh_cottage.jpg" class="illustration" title="Pooh Cottage" alt="Pooh Cottage" /></p>
 
-<p><img src="/images/blog-images/2010-10-28_tits_sign.jpg" class="illustration" title="Tits Sign" alt="Tits Sign" /></p>
+<p><img src="/assets/images/blog-images/2010-10-28_tits_sign.jpg" class="illustration" title="Tits Sign" alt="Tits Sign" /></p>
 
-<p><img src="/images/blog-images/2010-11-01_school_lunch.jpg" class="illustration" title="School Lunch" alt="School Lunch" /></p>
+<p><img src="/assets/images/blog-images/2010-11-01_school_lunch.jpg" class="illustration" title="School Lunch" alt="School Lunch" /></p>
 
 <p class="description">My lunch at school &#8211; handpicked from the local market. Hammy heaven!</p>
 
@@ -85,7 +85,7 @@ tags:
 
 <p>Hmm&#8230; a lot has happened since my last post. The school continued in intensity during the last 3 weeks, with a lot of new stuff being introduced all the time &#8211; herbal steam compress, variation techniques, and a lot of energy was put into timing the length of the massage. The &#8220;herbal compress day&#8221; was a break from the normal routines, where we were introduced to the different kinds of herbs they use to make the herbal balls, tasted/smelled them, chopped and squashed them, made our own ball with the whole thing mixed together, and eventually ended up massaging each other with them. I turns out that the fresh herbs releases a lot of juice and color &#8211; hence the old prisonlike looking clothes that day (and thanks for the &#8220;hari krishna&#8221; comments on facebook haha).</p>
 
-<p><img src="/images/blog-images/2010-11-01_herbal_ball_gemma.jpg" class="illustration" title="Herbal Ball day" alt="Herbal Ball day" /></p>
+<p><img src="/assets/images/blog-images/2010-11-01_herbal_ball_gemma.jpg" class="illustration" title="Herbal Ball day" alt="Herbal Ball day" /></p>
 
 <p class="description">Herbal massage day. The herbs had a strange effect on Gemma ;)</p>
 
@@ -93,13 +93,13 @@ tags:
 
 <p>I am not really sure if we did anything else than eat and practice the next couple of weeks &#8211; and a couple of beers during the weekends of course. It turned out that my 30 day visa really wasn&#8217;t enough for my 6-7 weeks stay in Chiang Mai (funny how theese things work), so I had to do a visa run to <strong>Myanmar</strong> to get a further 15 days. So at 7 on a saturday morning I got picked up by a minivan, a bit hungover and tired from the day before where people decided to drink beers and cocktails all night at the Jazzbar. Nothing really exciting to report from the the trip&#8230; we (Jennifer from the school joined in) sat in a miniwan doing maximum reps through bendy hillside roads for 10 hours, waiting to get back home for a much needed relaxing weekend. </p>
 
-<p><img src="/images/blog-images/2010-12-02_myanmar_border.jpg" class="illustration" title="Myanmar Border" alt="Myanmar Border" /></p>
+<p><img src="/assets/images/blog-images/2010-12-02_myanmar_border.jpg" class="illustration" title="Myanmar Border" alt="Myanmar Border" /></p>
 
 <p>The only real interesting part was during the 1 hour we had in Myanmar. We really felt that we crossed into a completely different country. I guess a lot of bordertowns has a different vibe than the rest of the country, but the people there seemed supressed and afraid somehow &#8211; very different energy there compared to the thaiside. While eating a quick lunch a strange drunk local guy with a amazing set of croocked teeth sat down and started talking. He told us that he had lived in the states for a while and that he was an engineer/freelancer of some sort. Later it turned out that he had spent most of his stay in US behind bars &#8211; like 4-6 years (a bit difficult to make sense of all the stories) &#8211; for smuggling some chineese people to the states. &#8220;How many people did you say you smuggled?&#8221;, we asked him curious&#8230; &#8220;300 he laughed&#8221;!! Nice guy by the way :) </p>
 
 <p>The same night after getting back to Chiang Mai, we went out for some food and drinks, at a place called Zoe in Yellow. Ended up being a long night out (as always), listening to local interpretations of System of a Down and Rage against the Machine, zipping cheap mojitos, and brawling with (shitface) Julie who ended up giving me bitemarks on my leg and back. Somehow she turns into a hitting and biting maniac when she drinks :) it was good fun though&#8230; but she still deserved the blue marks on her arms!</p>
 
-<p><img src="/images/blog-images/2010-12-02_lori_school_relax.jpg" class="illustration" title="Lori School Relax" alt="Lori School Relax" /></p>
+<p><img src="/assets/images/blog-images/2010-12-02_lori_school_relax.jpg" class="illustration" title="Lori School Relax" alt="Lori School Relax" /></p>
 
 <p class="description">Lori practicing the side-lying position.</p>
 
@@ -107,7 +107,7 @@ tags:
 
 <p>The day before our final test I went to the hairdresser to get a haircut and a beard trim. I brougth my shaver on the trip to Asia of course, but somehow forgot the powercord and the thing ran out of battery sometime within the first week&#8230; fu#*€&#8221;*#&#8221; hell! Anyway&#8230; it turned out to be a pleasant experience. </p>
 
-<p><img src="/images/blog-images/2010-12-02_sharlynn_brainfry.jpg" class="illustration" title="Sharlynn Brainfry" alt="Sharlynn Brainfry" /></p>
+<p><img src="/assets/images/blog-images/2010-12-02_sharlynn_brainfry.jpg" class="illustration" title="Sharlynn Brainfry" alt="Sharlynn Brainfry" /></p>
 
 <p class="description">Sharlynn in the alien brain-fryer machine.</p>
 
@@ -119,11 +119,11 @@ tags:
 
 <p>The day at school finished with the graduation and culminating when Julian rocked every ones socks of (except his own) with his <span class="caps">TMC</span> song. Great stuff mr. New Mexico! </p>
 
-<p><img src="/images/blog-images/2010-12-02_julian_rock.png" class="illustration" title="Julian Rock" alt="Julian Rock" /></p>
+<p><img src="/assets/images/blog-images/2010-12-02_julian_rock.png" class="illustration" title="Julian Rock" alt="Julian Rock" /></p>
 
 <p>From there on it was more or less one long goodbye with everyone. Some left straight after school that Friday, but most stayed and went out to (yes you guessed correctly) eat, drink and celebrate. I was a great night out with a lot of sentimental conversations and promises of future reunions.</p>
 
-<p><img src="/images/blog-images/2010-12-02_gemmachris.jpg" class="illustration" title="Gemma and Chris" alt="Gemma and Chris" /></p>
+<p><img src="/assets/images/blog-images/2010-12-02_gemmachris.jpg" class="illustration" title="Gemma and Chris" alt="Gemma and Chris" /></p>
 
 <p>The following weekend and week was a giant relief and held no plans other than relaxing and enjoying the fact that we didn&#8217;t have to go to school. My contract with my landlord ran out, but Sharlynn was kind enough to let me stay the last 3-4 days, so I moved all my stuff to her place. Sharlynn had to go to school &#8211; I didn&#8217;t. It was perfect. Until she <span class="caps">QUIT</span> her remaining 5 weeks (you quitter you!) and stayed home as well. But it was good though&#8230; I had someone to hang out with by the pool, eat and get massaged. </p>
 
@@ -139,19 +139,19 @@ tags:
 
 <p>This bustrip turned out to be 12 hours of sleep deprivation toture with thaimusic screaming from the big loudspeaker positioned in front of us, a busdriver shouting along, flooring it up and down the narrow mountain roads with the horn roaring everytime he saw movement on the road, and seats that turned me into a hysterical semi-claustrophobe trying new sitting positions every 3 minutes. A guy next to me, Owen, had minor case of Tourettes where he woke up and shouted something like &#8220;<span class="caps">SHUT</span> <span class="caps">THE</span> <span class="caps">FUCK</span> <span class="caps">UUUUP</span>!!&#8221; and went back to &#8220;sleep&#8221;. It was madness but somehow noone did or said anything. Maybe because of the 4 monks that noone wanted to be rude. Maybe because the driver seemed to be a pill popping maniac who obviously loved his music so much he wanted to share it with every one else &#8211; whether we liked it or not. We must have looked like zombies when we got out of the bus in Luang Prabang at 7.00 that morning. I definitely felt like one. I got a ride with an english couple who too had been on the bus &#8211; the tourettes guy. Just before leaving the busstation the munk asked if I wanted to have a tour around the temple he was staying at, and meet some of the other monks. <span class="caps">SURE</span>! It is not an everyday offer so I happily accepted and told him I would drop by one of the following days. He gave me a name of the temple and our tuk-tuk took off&#8230; 10 minutes later I had forgotten what he said of course &#8211; and realized that I didn&#8217;t get his name too :) </p>
 
-<p><img src="/images/blog-images/2010-12-03_laos_flag.jpg" class="illustration" title="Laos flag" alt="Laos flag" /></p>
+<p><img src="/assets/images/blog-images/2010-12-03_laos_flag.jpg" class="illustration" title="Laos flag" alt="Laos flag" /></p>
 
 <h3>Luang Prabang</h3>
 
 <p>Luang Prabang was much smaller than I thought, but still had a charming laidback energy mainly from all the old french inspired buildings. The old city was build around Mount Phousi (behave now), and had quite a few small restaurants, streetshops, a nightmarked with really cheap and tasty food, cheap local beer, several temples and the surrounding Mekong and Khan River. Altogether a very nice place to kick back and relax a couple of days. So I did&#8230; The first couple of days with the english couple, Owen and Megan, going to the waterfalls and tasting the local buckets ;) Very nice people. Unfortunately they had to leave but the day they left, Lori and her husband Geoff (the canadian girl from the massage school) arrived. I have realized that you never really are alone when traveling. </p>
 
-<p><img src="/images/blog-images/2010-12-03_owen_megan.jpg" class="illustration" title="Owen and Megan" alt="Owen and Megan" /></p>
+<p><img src="/assets/images/blog-images/2010-12-03_owen_megan.jpg" class="illustration" title="Owen and Megan" alt="Owen and Megan" /></p>
 
-<p><img src="/images/blog-images/2010-12-03_owen_ballbreaker.jpg" class="illustration" title="Owen Ballbreaker" alt="Owen Ballbreaker" /></p>
+<p><img src="/assets/images/blog-images/2010-12-03_owen_ballbreaker.jpg" class="illustration" title="Owen Ballbreaker" alt="Owen Ballbreaker" /></p>
 
 <p>Anyway&#8230; before they arrived I went to look for the munk. As I couldn&#8217;t remember the name of the temple and didn&#8217;t have his name I was kind of screwed. A taxi driver started his usual &#8220;Waterfall? cheap cheap&#8221;-bullox when I passed him, and I made him name all the temples in Luang Prabang. The 4th or 5th one rang a bell: &#8220;Wat Phom Pao&#8221; but I was fare from sure. I took a chance, asked for directions and walked the 4 km to the temple, on the outskirts of the city. The temple surroundings turned out to be massive, with at least 30 smaller buildings and sheds spread across the area. But not a single person was in sight. At this point I felt a bit stupid&#8230; no name, not sure this was the right temple looking for a monk that looks like every other monk. I suddenly saw some guys dressed in orange working between some buildings and walked down there to talk to them. 5 dogs tried to attack me but one of the monks started throwing rocks at them and chased them away. I thanked him and looked at all the monks gathered there with a resignating sigh &#8211; but the next thing the monk from the busride popped his head out of house and said hi. For him I guess it was the most natural thing that I found the place and him &#8211; for me it was amazing. I definitely will trust my intuition even more from now on.</p>
 
-<p><img src="/images/blog-images/2010-12-02_wat_phompao.jpg" class="illustration" title="Wat Phom Pao" alt="Wat Phom Pao" /></p>
+<p><img src="/assets/images/blog-images/2010-12-02_wat_phompao.jpg" class="illustration" title="Wat Phom Pao" alt="Wat Phom Pao" /></p>
 
 <p>3 hours went by talking about random stuff, spirituality, religions and with a guided tour around the place and inside the temple. He had been a novice for 5 years and a monk for an additional 5 years and still wanted to do 3 more years. It turned out that he had met a girl just before becoming a novice at the age of 15 and that she was still waiting for him 10 years after! That is one faithful woman. </p>
 
@@ -161,7 +161,7 @@ tags:
 
 <p>With the bustrip from the Laos border to Luang Prabang still fresh in mind, I decided to grab a planeride to Hanoi. Except for a small delay at the airport (you need a bit of patients in Laos), everything went smoothly. I spent the delay chatting to an american lady, originally from Belgium, and she ended up offering me to join her in her prepaid hotel taxi from Hanoi Airport to the &#8220;Old Quarter&#8221; in Hanoi center&#8230; aaaand she gave me some of her food cause she thought I looked hungry haha. I obviously didn&#8217;t tell her that I always look like that, and that I am always hungry :) We arrived at about 9 pm and after finding a hotel I laid down and enjoyed the fact that I had made the trip without any 12 hour sleepless busrides with singing drivers.</p>
 
-<p><img src="/images/blog-images/2011-02-24_vietnamese_flag.jpg" class="illustration" title="Vietnamese flag" alt="Vietnamese flag" /></p>
+<p><img src="/assets/images/blog-images/2011-02-24_vietnamese_flag.jpg" class="illustration" title="Vietnamese flag" alt="Vietnamese flag" /></p>
 
 <p>First impression of Hanoi was A <span class="caps">LOT</span> of scooters and A <span class="caps">LOT</span> of honking&#8230; as in every 5 seconds! Some just hold down the <span class="caps">HOOOOOONK</span>-button &#8211; much easier. Others switch their horns between 8 different <span class="caps">HOOOONK</span> sounds so you don&#8217;t get tired of listening to it. Hmm&#8230; Besides the <span class="caps">HOOOONK</span>ing the Old Quarter seems quite intimate with all its vendor packed streets and narrow alleys. For some reason, and I guess this is the way to do it a lot of places in asia, they decided to group stores selling fx. shoes into one area. Makes it easier to be a tourist looking for certain things that&#8217;s for sure. </p>
 
@@ -171,15 +171,15 @@ tags:
 
 <p>A busticket and some packing and I was on my way in the &#8220;V.I.P&#8221; bus heading to Hoi An &#8211; about halfway down the east coast. The sleeping bus turned out to be somewhat different from the ones we are used to i Europe. Everyone has their own inclined seat with a small &#8220;breadbox&#8221; for the legs/feet. </p>
 
-<p><img src="/images/blog-images/2011-03-04_breadbox_seat.jpg" class="illustration" title="Breadbox Seat" alt="Breadbox Seat" /></p>
+<p><img src="/assets/images/blog-images/2011-03-04_breadbox_seat.jpg" class="illustration" title="Breadbox Seat" alt="Breadbox Seat" /></p>
 
 <p>The seats come in different sizes, and if your legs are to long to fit in the box there is always plenty of space on the floor &#8211; or you can stand up all the way :) Amazing to see grown people sit for 18 hours with their legs curled in 20 alternating positions&#8230; </p>
 
-<p><img src="/images/blog-images/2011-02-24_dog_tags.jpg" class="illustration" title="Dog tags" alt="Dog tags" /></p>
+<p><img src="/assets/images/blog-images/2011-02-24_dog_tags.jpg" class="illustration" title="Dog tags" alt="Dog tags" /></p>
 
 <p>Before we reached our destination we had a pitstop in Hue, 6 hours north of Hoi An. Some chose to stay for a couple of days, to go explore the remains of the tunnels from the Vietnam war, but I was too tireded after the bustrip and got on a bus after spending only 4-5 hours in the city. Meanwhile I met a cool norwegian couple, Daniel and Kirsti, who were heading for Hoi An too and we ended up staying in the same hotel 2-3 km outside the city center.</p>
 
-<p><img src="/images/blog-images/2011-02-24_bike_in_hoi_an.jpg" class="illustration" title="Biking in Hoi An" alt="Biking in Hoi An" /></p>
+<p><img src="/assets/images/blog-images/2011-02-24_bike_in_hoi_an.jpg" class="illustration" title="Biking in Hoi An" alt="Biking in Hoi An" /></p>
 
 <h3>Hoi An </h3>
 
@@ -187,7 +187,7 @@ tags:
 
 <p>Finally&#8230; what a relief!! 2 meter waves and absolutely no one on the beach &#8211; we must have looked like 2 Red Bull overdoses! By then I realized that I can never live in a place away from the ocean. The water was <span class="caps">PERFECT</span>! :)</p>
 
-<p><img src="/images/blog-images/2011-02-24_hoi_an_waves.jpg" class="illustration" title="Hoi An waves" alt="Hoi An waves" /></p>
+<p><img src="/assets/images/blog-images/2011-02-24_hoi_an_waves.jpg" class="illustration" title="Hoi An waves" alt="Hoi An waves" /></p>
 
 <p class="description">Fighting waves with Daniel.</p>
 
@@ -195,23 +195,23 @@ tags:
 
 <p>Anyway&#8230; I found out that the Vietnamese are very different personality wise too! It is not about smiling and treating people nicely all the time &#8211; if they think you are an asshole, they will surely let you know. Not like in Thailand where it is hard to tell if people really like you or if you are just another &#8220;farang&#8221; (what they call all foreigners -&gt; white skin, big nose and a fat wallet). So in a way the Vietnamese are easier to get along with because you rarely question the mood they&#8217;re in. They have great sarcastic humor but at the same time they are proud people and won&#8217;t take bullshit from anyone. I guess this is a result of centuries of war with the surrounding countries and of cause the victory over the french and American. When I first came to Hanoi their ways seemed a bit overwhelming compared to the suppressed people of Laos, but after a while I actually started to like it. </p>
 
-<p><img src="/images/blog-images/2011-03-04_google_knows.jpg" class="illustration" title="Google Knows" alt="Google Knows" /></p>
+<p><img src="/assets/images/blog-images/2011-03-04_google_knows.jpg" class="illustration" title="Google Knows" alt="Google Knows" /></p>
 
 <p>Where was I?&#8230; Hoi An! The days in Hoi An were more or less spent relaxing by the pool table, drinking cheap happy-hour drinks at nighttime and having some shirts made by one of the many local tailors. The city was surprisingly quite with only a few bars open at night so we ended up the same place almost every time. Daniel and Kirsti&#8217;s friend from England, Alec, dropped by which gave us yet another reason to celebrate &#8211; super cool guy by the way. </p>
 
-<p><img src="/images/blog-images/2010-12-03_pool_paintings.png" class="illustration" title="Pool Paintings" alt="Pool Paintings" /></p>
+<p><img src="/assets/images/blog-images/2010-12-03_pool_paintings.png" class="illustration" title="Pool Paintings" alt="Pool Paintings" /></p>
 
-<p><img src="/images/blog-images/2010-12-03_daniel_kirsti.jpg" class="illustration" title="Daniel and Kirsti" alt="Daniel and Kirsti" /></p>
+<p><img src="/assets/images/blog-images/2010-12-03_daniel_kirsti.jpg" class="illustration" title="Daniel and Kirsti" alt="Daniel and Kirsti" /></p>
 
 <p class="description">Daniel and Kirsti. Almost impossible to catch Daniel without any facial cramps.</p>
 
 <p>My visit at the tailors was to be a bit of a weird experience. I decided for a couple of shirts and two jackets &#8211; one casual and one a bit more stylish. We agreed on the fabrics for the shirts and jackets and I went on with my doings. The following days was correction time. The shirts looked fine, not astonishing, but what can you expect for 10-15$? The first jacket was exactly like I wanted it &#8211; the second, the stylish one, on the other hand was somewhat different than expected. I told them to make a gray wool jacket but I guess they misunderstood something somewhere because they brought out this red checkered jacket and smilingly told me to try it on. Seriously&#8230; it was <strong>butt ugly</strong> and I couldn&#8217;t stop laughing, but the owner of the shop dropped by just about where I cracked up and the girl begged me not to tell him about our mix-up. So I ended up posing in this insanely ugly jacket in front of the manager and the staff, pretending to be thrilled and happy about it, and trying <span class="caps">REALLY</span> hard not to laugh my ass off. When the manager had left, the girl promised to make me another jacket for free and somehow my red-checkered cottoncoat mysteriously disappeared later that day &#8211; perhaps a local guy made a good deal?</p>
 
-<p><img src="/images/blog-images/2010-12-03_siamese_twins.jpg" class="illustration" title="Siamese Twins" alt="Siamese Twins" /></p>
+<p><img src="/assets/images/blog-images/2010-12-03_siamese_twins.jpg" class="illustration" title="Siamese Twins" alt="Siamese Twins" /></p>
 
 <p class="description">Siamese twins impression.</p>
 
-<p><img src="/images/blog-images/2010-12-03_dead_rat.jpg" class="illustration" title="Dead rat" alt="Dead rat" /></p>
+<p><img src="/assets/images/blog-images/2010-12-03_dead_rat.jpg" class="illustration" title="Dead rat" alt="Dead rat" /></p>
 
 <p>At this point the weather in Hoi An and the rest of northern Vietnam was pretty lousy, with only a few days of sun&#8230; my cravings for surfing and sunny beaches of the south inevitably kicked in and had myself another fantastic busride south to Mui Ne. 12 hours to Nha Trang which I decided to skip because of the lack of wind there and an additional 5 hours to Mui Ne. </p>
 
@@ -223,13 +223,13 @@ tags:
 	<li>Kitesurfing</li>
 </ul>
 
-<p><img src="/images/blog-images/2011-03-11_surfing_in_mui_ne.jpg" title="Surfing in Mui Ne" alt="Surfing in Mui Ne" /></p>
+<p><img src="/assets/images/blog-images/2011-03-11_surfing_in_mui_ne.jpg" title="Surfing in Mui Ne" alt="Surfing in Mui Ne" /></p>
 
 <ul>
 	<li>Russians, Nightlife, French guys (Arnoud and Lionell), German/Austrian guys (Robert) + bucket with Daniel and Kirsti</li>
 </ul>
 
-<p><img src="/images/blog-images/2011-03-11_drinking_buckets_with_daniel_and_kirsti.jpg" class="illustration" title="Drinking buckets with Daniel and Kirsti " alt="Drinking buckets with Daniel and Kirsti " /></p>
+<p><img src="/assets/images/blog-images/2011-03-11_drinking_buckets_with_daniel_and_kirsti.jpg" class="illustration" title="Drinking buckets with Daniel and Kirsti " alt="Drinking buckets with Daniel and Kirsti " /></p>
 
 <ul>
 	<li>Local surfers</li>
@@ -253,14 +253,14 @@ tags:
 	<li>Heading to Boracay -&gt; Flight, bus and boat</li>
 </ul>
 
-<p><img src="/images/blog-images/2011-03-11_helle_at_kalibo_airport.jpg" class="illustration" title="Helle at Kalibo airport" alt="Helle at Kalibo airport" /></p>
+<p><img src="/assets/images/blog-images/2011-03-11_helle_at_kalibo_airport.jpg" class="illustration" title="Helle at Kalibo airport" alt="Helle at Kalibo airport" /></p>
 
 <ul>
 	<li>Boracay</li>
 	<li>Surfing</li>
 </ul>
 
-<p><img src="/images/blog-images/2011-03-11_been_surfing.jpg" class="illustration" title="Been surfing" alt="Been surfing" /></p>
+<p><img src="/assets/images/blog-images/2011-03-11_been_surfing.jpg" class="illustration" title="Been surfing" alt="Been surfing" /></p>
 
 <ul>
 	<li>Tricycle</li>
@@ -271,14 +271,14 @@ tags:
 	<li>The local girls</li>
 </ul>
 
-<p><img src="/images/blog-images/2011-03-11_kasper_and_maria_beach_drinks.jpg" class="illustration" title="Kasper and Maria - Beach Drinks" alt="Kasper and Maria - Beach Drinks" /></p>
+<p><img src="/assets/images/blog-images/2011-03-11_kasper_and_maria_beach_drinks.jpg" class="illustration" title="Kasper and Maria - Beach Drinks" alt="Kasper and Maria - Beach Drinks" /></p>
 
 <ul>
 	<li>The danish girls -&gt; Jeanette, Maria x 2 and Janne</li>
 	<li>New year</li>
 </ul>
 
-<p><img src="/images/blog-images/2011-03-11_newyear.jpg" class="illustration" title="Newyear" alt="Newyear" /></p>
+<p><img src="/assets/images/blog-images/2011-03-11_newyear.jpg" class="illustration" title="Newyear" alt="Newyear" /></p>
 
 <p>	<ul>
 	<li>Leaving Boracay</li>

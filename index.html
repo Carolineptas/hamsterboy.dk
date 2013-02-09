@@ -8,7 +8,7 @@ body_class: frontpage
 	{% for project in site.categories.my-stuff limit:10 %}
 		<div class="fifth{% if forloop.index == 5 or forloop.index == 10 %} last{% endif %}">
 			<a class="thumb" href="{{ project.url }}">
-				<img src="/images/work/{{ project.thumbnail }}" alt="{{ project.title }}" />
+				<img src="/assets/images/work/{{ project.thumbnail }}" alt="{{ project.title }}" />
 			</a>
 		</div>
 	{% endfor %}

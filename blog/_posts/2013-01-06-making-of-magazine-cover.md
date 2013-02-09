@@ -14,4 +14,4 @@ Nice short video about the process of taking a design to print. It took me a whi
 
 The outcome is super awesome! What a great idea - and an even better execution. Reminds me a lot of the old "triangle snake" from my childhood :)
 
-<img src="/images/blog-images/2013-06-01_triangle_snake.jpg" alt="Triangle snake" />
+<img src="/assets/images/blog-images/2013-06-01_triangle_snake.jpg" alt="Triangle snake" />
