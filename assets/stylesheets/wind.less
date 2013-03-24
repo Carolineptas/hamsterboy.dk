@@ -1,95 +1,153 @@
 @import "variables.less";
 @import "mixins.less";
 
+@windDirectionBg: #ccc;
+
+@font-face {
+	font-family: 'trump-gothic';
+	src: url('/assets/fonts/trump-gothic/trump_gothic_west-webfont.eot');
+	src: url('/assets/fonts/trump-gothic/trump_gothic_west-webfont.eot?#iefix') format('embedded-opentype'),
+	url('/assets/fonts/trump-gothic/trump_gothic_west-webfont.woff') format('woff'),
+	url('/assets/fonts/trump-gothic/trump_gothic_west-webfont.ttf') format('truetype'),
+	url('/assets/fonts/trump-gothic/trump_gothic_west-webfont.svg#trump-gothic') format('svg');
+	font-weight: normal; 
+	font-style: normal;
+}
+
 
 /* Styles for the "wind" section of the site */
 
-// set dimensions of the gauges
-#weather-stations > .dimension( @gaugeDiameter, @gaugeBorderWidth, @gaugeBorder, @gaugeArrowHeight, @gaugeArrowWidth, @gaugeArrowOffset, @gaugeFontSize );
+html, body {
+	background: #222;
+}
+
+body {
+	padding: 10px;
+	border: 0;
+	color: #ccc;
+}
+
+#page {
+	width: auto;
+	max-width: none;
+}
+
+#content {
+	padding: 0;
+}
+
 
 
 .weather-stations {
-	margin-top: 2em;
-	.clearfix();
 	
-	> li {
-		float: left;
-		margin: 0 0 0 5%;
-		padding: 0 !important;
-		background-image: none !important;
-		text-align: center;
+	tr {
 
-		&:first-child {
-			margin: 0;
+		th, td {
+			padding: 15px;
+			background: #292929;
+			border: 0;
+			border-bottom: 5px solid #222;
+
+			&:last-child {
+				.border-right-radius(6px);
+			}
 		}
 
-		h3 {
-			margin: 5px 0 10px;
-			font-size: 1.2em;
-			color: #888;
+		// headers
+		th {
+			font-family: "trump-gothic", helvetica, arial, sans-serif;
+			font-size: 3em;
+			line-height: 1em;
+			color: #d4f781;
 			text-transform: uppercase;
+			.border-left-radius(6px);
+			white-space: nowrap;
+			width: 45%;
 		}
 		
-		a {
-			display: block;
-			position: relative;
-			text-align: center;
-			text-decoration: none;
-			color: @grayDark;
-			.box-sizing(border-box);
-			
-			ul {
-				position: absolute;
-				margin: 0;
-			}
-			
-			li {
-				padding: 0;
-				background-image: none;
-				
-				&.speed {
-					display: block;
-					position: absolute;
-					z-index: 1010;
-					color: @linkColor;
-					font-size: 12px;
-					line-height: 14px;
-					
-					b {
-						display: block;
-						margin-left: -6px; /* compensate for italic font style */
-						padding: 15px 0 0 0;
-						font-size: 40px;
-						line-height: 40px;
-						font-weight: normal;
-						letter-spacing: -.08em;
-						font-family: georgia;
-						font-style: italic;
-					}
-				}
+		ul {
+			float: left;
+			width: 55%;
+			margin: 0;
+			padding: 0;
+		}
+		
+		li {
+			background-image: none;
+		}
 
-				&.direction {
-					display: block;
+		.speed {
+			font-family: "trump-gothic", helvetica, arial, sans-serif;
+			font-size: 3em;
+			line-height: 1em;
+
+			.speed-unit {
+				font-size: 0.6em;
+			}
+		}
+
+		.direction {
+			position: relative;
+			height: 40px;
+			width: 40px;
+			background: @windDirectionBg;
+			.border-radius(20px);
+			text-align: center;
+			.transition(all .4s ease-in);
+
+			.direction-icon {
+				position: absolute;
+				display: block;
+				height: 40px;
+				width: 40px;
+
+				&:before {
+					content: "";
 					position: absolute;
-					z-index: 1000;
-					.transition(all .4s ease-in);
-					
-					.direction-icon {
-						display: block;
-						position: absolute;
-						top: 0;
-						text-indent: -9999em;
-						-webkit-transform-origin: right center;
-					}
-					
-					.degrees {
-						display: none;
-						font-size: 0.9em;
-						color: @grayLight;
-					}
+					top: -8px;
+					display: block;
+					text-indent: -9999em;
+					height: 0;
+					left: 16px;
+					border-bottom: 9px solid @windDirectionBg;
+					border-right: 4px solid transparent;
+					border-left: 4px solid transparent;
 				}
+			}
+
+			
+			.label {
+				display: block;
+				position: absolute;
+				height: 30px;
+				width: 30px;
+				margin: 5px;
+				background: #fff;
+				text-align: center;
+				font-size: 20px;
+				font-family: "trump-gothic", helvetica, arial, sans-serif;
+				font-weight: bold;
+				line-height: 32px;
+				color: #777;
+				.border-radius(30px);
+				letter-spacing: 1px;
 			}
 		}
 	}
 }
+
+footer {
+	padding-left: 20px;
+	border: 0;
+	color: #444;
+}
+
+
+@media screen and (max-width: 480px) {
+	
+	.weather-stations {
+
+	}
+}
+
 

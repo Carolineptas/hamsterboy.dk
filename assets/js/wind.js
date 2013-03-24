@@ -35,7 +35,7 @@ $(document).ready(function() {
 	        },
 			complete: function(data) {
 				//setTimeout( getGaugeData(data, stationID), 6000);
-				console.log("Refreshing the data... hang on please.");
+				//console.log("Refreshing the data... hang on please.");
 			},
 			dataType: "json"
 		});
@@ -44,19 +44,24 @@ $(document).ready(function() {
 	function createWindGauge( stationID, stationName ){
 		if ( $("#content .weather-stations").length == 0 ) {
 			// create the list element
-			$("#content").append("<ul class='weather-stations'></ul>");
+			$("#content").append("<table class='weather-stations'><tbody></tbody></table>");
 		}
 
 		var listItem = 
-			"<li class=\"station-" + stationID + "\">" +
-				"<h3>" + stationName + "</h3>" +
-				"<a>" +
-					"<ul>" +
-						"<li class=\"speed\"><b>0.0</b> m/s</li>" +
-						"<li class=\"direction\"><i class=\"direction-icon\"></i> <span class=\"degrees\">0&deg;</span></li>" +
-					"</ul>" +
+			"<tr class=\"station-" + stationID + "\">" +
+				"<th>" + stationName + "</th>" +
+				"<td>" +
+					"<div class=\"speed\"><span>0.0</span> <div class=\"speed-unit\">m/s</div></div>" +
+				"</td>" +
+				"<td>" +
+					"<div class=\"direction\">" +
+						"<span class=\"direction-icon\"></span>"+
+						"<span class=\"label\"></span>"+
+					"</li>" +
+				"</ul>" +
 				"</a>" +
-			"</li>";
+			"</tr>";
+
 			
 		// append list item
 		$("#content .weather-stations").append( listItem );
@@ -64,7 +69,7 @@ $(document).ready(function() {
 		return listItem;
 	}
 
-	function setWindAngle( elm, angle ) {
+	function setWindDirection( elm, angle ) {
 		$(elm[0]).css("-moz-transform","rotate("+ angle + "deg)");	
 		$(elm[0]).css("-webkit-transform","rotate("+ angle + "deg)");	
 		$(elm[0]).css("-ms-transform","rotate("+ angle + "deg)");	
@@ -74,32 +79,17 @@ $(document).ready(function() {
 	function fillData( data, stationID ) {
 
 		// create reference to the list item
-		var listItem = $(".weather-stations li.station-"+ stationID);
+		var listItem = $(".weather-stations tr.station-"+ stationID);
 		
 		// fill in the wind speed
-		$(listItem).find(".speed b").html(data.windspeed);
+		$(listItem).find(".speed span").html(data.windspeed);
 
 		// fill in the wind direction
-		$(listItem).find(".degrees").html(data.degrees + "&deg;");
+		//$(listItem).find(".degrees").html(data.degrees + "&deg;");
 		
 		// set the rotation of the wind arrow
-		setWindAngle( $(listItem).find(".direction"), data.degrees ); 
-
-		var arrow = $(listItem).find(".direction");
-
-		//worker(arrow);
-
+		setWindDirection( $(listItem).find(".direction-icon"), data.degrees ); 
 	}
 
-	(function worker(elm) {
-		
-		// get the current rotation
-		//console.log("her: " + elm);
-		
-		//setTimeout(worker, 5000);
-	})();
-	
-	
-	// Ready... set... go!
-	initialize();
+	//initialize();
 });

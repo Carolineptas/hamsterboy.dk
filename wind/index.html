@@ -18,8 +18,8 @@
 	</script>
 
 	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Oswald:300,400,700" />
-	<link rel="stylesheet" href="/css/style.css" />
-	<link rel="stylesheet" href="/css/wind.css" />
+	<link rel="stylesheet" href="/assets/stylesheets/style.css" />
+	<link rel="stylesheet" href="/assets/stylesheets/wind.css" />
 
 	<!-- enable HTML5 elements in IE7+8 -->
 	<!--[if lt IE 9]>
@@ -30,28 +30,62 @@
 
 <body class="wind">
 	<div id="page">
-		<header role="banner">
-			<div class="logo"><a href="/" title="Hamsterboy"><img src="/assets/images/ui/logo.png" alt="Hamsterboy" /></a></div>
-			<nav role="navigation">
-				<ul>
-					<li class="home"><a href="/">Home</a></li>
-					<li class="wind"><a href="/wind/">Wind</a></li>
-				</ul>
-			</nav>
-		</header>
 		<div class="contentwrap">
+			<div id="content" role="main">
 
-			<h1 class="page-title">{{ page.title }}</h1>
-
-			<div id="content" role="main"></div>
-
-			{% include sidebar.html %}
+				<table class="weather-stations">
+					<tbody>
+						<tr class="station-6183">
+							<th>Drogden</th>
+							<td>
+								<div class="speed">
+									6.2 <span class="speed-unit">m/s</span>
+								</div>
+							</td>
+							<td>
+								<div class="direction">
+									<span class="direction-icon" style="-webkit-transform: rotate(60deg);"></span>
+									<span class="label">NW</span>
+								</div>
+							</td>
+						</tr>
+						<tr class="station-6180">
+							<th>Kbh lufthavn</th>
+							<td>
+								<div class="speed">
+									<b>5.7</b> m/s
+								</div>
+							</td>
+							<td>
+								<div class="direction">
+									<i class="direction-icon"></i>
+									<span class="label">SW</span>
+								</div>
+							</td>
+						</tr>
+						<tr class="station-6169">
+							<th>Gniben</th>
+							<td>
+								<div class="speed">
+									<b>5.7</b> m/s
+								</div>
+							</td>
+							<td>
+								<div class="direction">
+									<i class="direction-icon"></i>
+									<span class="label">NE</span>
+								</div>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 
 			{% include footer.html %}
 	</div>
 	
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-	<script src="/js/wind.js"></script>
+	<!--<script src="http://hamsterboy.dk/js/wind.js"></script>-->
 </body>
 </html>
